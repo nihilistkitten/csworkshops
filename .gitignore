@@ -1,0 +1,4 @@
+# pandoc output files
+*.pdf
+*.html
+__pycache__

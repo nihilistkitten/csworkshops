@@ -1,0 +1,17 @@
+i=0
+j=1
+print(j)
+i,j=j,i+j
+print(j)
+i,j=j,i+j
+print(j)
+i,j=j,i+j
+print(j)
+i,j=j,i+j
+print(j)
+i,j=j,i+j
+print(j)
+i,j=j,i+j
+print(j)
+i,j=j,i+j
+print(j)
