@@ -3,6 +3,8 @@ title: "00-Principles of Good Code"
 geometry: margin=1in
 ...
 
+# Fibonacci
+
 We're going to start by looking at an example of very bad code:
 
 ```{.python include=000-fib-bad.py}
@@ -82,6 +84,7 @@ Comments make our code infinitely more readable by explaining in spoken language
 ```
 
 A few things to note:
+
 - On top is a _docstring_, or "documentation string". This is a special type of comment, written as a triple-quoted string, and placed on top of a file, function, or class. Its purpose is to explain what the thing it documents does, without getting in to any of the details, so that anyone interested in using that object doesn't need to understand the implementation in order to understand how to use it.
 - Comments can explain what the code does or how it does it, i.e. the comment which talks about simultaneous assignment.
 - There is such a thing as overcommenting (to be honest, this example is probably overcommented), but it's way harder to overcomment than undercomment.
